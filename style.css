@@ -1,0 +1,678 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+p{
+    color: grey;
+    font-size: 14px;
+}
+.education{
+    height: 90vh;
+    border-top: 3px solid rgb(37, 253, 37);
+}
+.header{
+    height: 10vh;
+    width: 70%;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    width: 70%;
+}
+.logo h3{
+    display: flex;
+    align-items: center;
+}
+ul{
+    width: 60%;
+    display: flex;
+    list-style: none;
+    margin-left: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    cursor: pointer;
+    margin: 0 12px;
+    font-size: 13px;
+    color: grey;
+}
+li:hover{
+    height: 10vh;
+    background-color: rgb(93, 244, 93);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.number{
+    display: flex;
+    align-items: center;
+}
+.number i{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgb(90, 249, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 15px;
+}
+.number p{
+    font-size: 12px;
+    color: grey;
+}
+.center{
+    height: 80vh;
+    width: 100%;
+    background-image: url(student.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.center-text{
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+}
+.center p{
+    font-size: 12px;
+    color: rgb(232, 227, 227);
+}
+.center-text button{
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 15px 20px;
+    background-color: transparent;
+    color: white;
+    margin-top: 35px;
+}
+
+
+
+.trending{
+    height: 400px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trending-card{
+    border: 1px solid rgb(230, 225, 225);
+    width: 31.5%;
+    height: 280px;
+    padding-left: 25px;
+}
+.trending-number{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(84, 84, 254);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 13px;
+}
+.trending-text h3{
+    margin: 15px 0;
+}
+.trending-text p{
+    font-size: 12px;
+    padding-right: 35px;
+    line-height: 20px;
+    color: grey;
+}
+
+
+
+.signup{
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.signup .text{
+    width: 45%;
+}
+
+.signup .text .block{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.icon{
+    height: 45px;
+    width: 45px;
+    background-color: rgb(45, 243, 101);
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.block-text{
+    width: 85%;
+}
+.block-text p{
+    line-height: 21px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: grey;
+}
+
+
+.signup-name{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    padding-left: 75px;
+}
+.signup-name .form{
+    height: 400px;
+    width: 400px;
+    border-radius: 1px solid ;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 0 30px;
+    text-align: center;
+}
+.signup-name .form .input{
+    padding: 0 50px;
+}
+.signup-name .form input{
+    margin: 10px 0;
+    color: white;
+    letter-spacing: 1px; 
+        
+}
+.signup-name .form input:nth-of-type(1){
+    width: 100%;
+    padding: 9px 0 9px 5px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+.signup-name .form input:nth-of-type(2){
+    width: 100%;
+    padding: 9px 0 9px 5px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+.signup-name .form input:nth-of-type(3){
+    width: 100%;
+    padding: 9px 0 9px 5px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+.signup-name .form input:nth-of-type(4){
+    padding: 12px 20px; 
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+
+.teacher{
+    height: 550px;
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 242, 242);
+}
+.teacher p{
+    margin-bottom: 30px;
+    font-size: 20px;
+    
+}
+.teacher-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+.teacher .card{
+    width: 23%;
+    height: 350px;
+    background-color: white;
+}
+.teacher .card .img:nth-of-type(1){
+    height: 65%;
+    background-image: url(teacher.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.teacher .card:nth-of-type(2) .img{
+    height: 65%;
+    background-image: url(teacher2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.teacher .card:nth-of-type(3) .img{
+    height: 65%;
+    background-image: url(teacher3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.teacher .card:nth-of-type(4) .img{
+    height: 65%;
+    background-image: url(teacher4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.teacher .name{
+    height: 20%;
+    padding: 15px 20px;
+}
+.teacher .name p{
+    font-size: 13px;
+}
+.teacher .icons{
+    height: 15%;
+    border-top: 1px solid black;
+    padding: 15px 20px;
+}
+.teacher i{
+    margin: 0 5px;
+}
+
+
+
+
+.popular{
+    height: 650px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.popular ul{
+    padding-top: 60px;
+    width: 5%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    padding-right: 80px;
+}
+.popular li{
+    height: 20px;
+    /* border: 1px solid; */
+    padding: 5px 5px;
+    color: black;
+    display: flex;
+    align-items: center;
+    background-color: grey;
+}
+.popular li:hover{
+    height: 20px;
+}
+.popular p{
+    margin-bottom: 50px;
+    font-size: 13px;
+}
+
+.popular .cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.popular .card{
+    height: 350px;
+    width: 32%;
+}
+.popular .card:nth-of-type(1) .img{
+    height: 50%;
+    background-image: url(edu1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.popular .card:nth-of-type(2) .img{
+    height: 50%;
+    background-image: url(edu2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.popular .card:nth-of-type(3) .img{
+    height: 50%;
+    background-image: url(edu3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.popular .card .img p{
+    position: absolute;
+    left: 15px;
+    bottom: -35px;
+    color: white;
+}
+.popular .text{
+    height: 30%;
+    padding: 20px 20px;
+    background-color: rgb(245, 245, 245);
+    
+}
+.popular .pay{
+    padding: 18px 20px;
+    border-top: 1px solid grey;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popular .card:nth-of-type(1) .img1{
+    height: 50px;
+    width: 50px;
+    background-image: url(teacher.jpg);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: -60px;
+}
+.popular .card:nth-of-type(2) .img1{
+    height: 50px;
+    width: 50px;
+    background-image: url(teacher3.jpg);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: -100px;
+}
+.popular .card:nth-of-type(3) .img1{
+    height: 50px;
+    width: 50px;
+    background-image: url(teacher4.jpg);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: -60px;
+}
+.popular .card:nth-of-type(1) button{   
+    padding: 7px 16px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(64, 243, 64);
+    color: white;
+}
+.popular .card:nth-of-type(2) button{   
+    padding: 7px 16px;
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+.popular .card:nth-of-type(3) button{   
+    padding: 7px 16px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(64, 243, 64);
+    color: white;
+}
+.pay h4{
+    font-size: 15px;
+}
+
+
+
+.student{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 242, 242);
+}
+.student p{
+    margin-bottom: 50px;
+    /* font-size: 20px; */
+}
+.student .cards{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.student .card{
+    height: 300px;
+    width: 32%;
+    border: 1px solid white;
+    background-color: white;
+}
+.student .card-img{
+    height: 40%;
+    margin: 0 20px;
+    display: flex;
+    /* align-items: center; */
+    padding: 40px 0 0 20px;
+}
+
+
+.student .card:nth-of-type(1) .img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url(student1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 15px;
+}
+.student .card:nth-of-type(2) .img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url(student2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 15px;
+}
+.student .card:nth-of-type(3) .img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url(student3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 15px;
+}
+.student .cards .card-text{
+    padding: 0 35px;
+    line-height: 21px;
+} 
+.student .card .icons i{
+    color: blue;
+}
+.student ul{
+    padding-right: 90px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.student li:nth-of-type(1){
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(189, 189, 189);
+    /* border: 2px solid black     ; */
+}
+.student li:nth-of-type(2){
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: grey;
+    /* border: 2px solid black     ; */
+}
+
+
+.contact{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.main{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main-left{
+    width: 47%;
+    color: white;
+}
+.main-left p{
+    color: white;
+    margin-top: 5px;
+}
+.main-right{
+    width: 47%;
+    /* height: 400px; */
+    background-image: url(contact1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main-left input:nth-of-type(1){
+    width: 100%;
+    padding: 12px 10px;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.main-left input:nth-of-type(2){
+    width: 100%;
+    padding: 12px 10px;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    
+}
+textarea{
+    width: 100%;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 5px;
+}
+.main-left input:nth-of-type(3){
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 35px;
+    color: grey;
+    margin-top: 10px;    
+}
+
+
+
+.footer{
+    height: 350px;
+    background-color: rgb(34, 32, 32);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.info{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.info .card{
+    width: 32%;
+}
+.info .card h4{
+    margin: 10px 0;
+}
+.info .card:nth-of-type(2) h4:nth-of-type(2){
+    margin-top: 25px;
+}
+.info .card .icons{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.info .card p{
+    line-height: 22px;
+    font-size: 10px;
+}
+.info .card input:nth-of-type(1){
+    width: 100%;
+    outline: none;
+    padding: 10px 10px;
+    background-color: transparent;
+    color: white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.info .card input:nth-of-type(2){
+    margin-top: 18px;
+    margin-bottom: 15px;
+    padding: 10px 40px;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+.info .card i{
+    color: rgb(12, 229, 12);
+    margin: 0 10px;
+    font-size: 13px;
+}
